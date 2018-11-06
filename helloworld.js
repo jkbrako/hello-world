@@ -1,16 +1,19 @@
 function sayC() {
-  console.log (Hello, console)
+  console.log("Hello, console")
 }
+
  function sayP() {
-   alert(Hello, Pop-Up)
+   alert("Hello, Pop-Up")
  }
 
  function sayBrowser() {
-   Var p = document.getElementById(“Browser”);
- 	p.innerHTML = “Hello, World!”;
-
+  var p = document.getElementById("Hello");
+ 	p.innerHTML = "Hello, World";
  }
 
 function sayStranger() {
-
+  var person = prompt("Please enter your name");
+  if (person != null) {
+    alert("Hello " + person + "!");
+  }
 }
